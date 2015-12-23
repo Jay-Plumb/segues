@@ -15,6 +15,7 @@
 		96B541E61C2A26C800E58E6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96B541E41C2A26C800E58E6C /* LaunchScreen.storyboard */; };
 		96B541F11C2A26C800E58E6C /* sequesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B541F01C2A26C800E58E6C /* sequesTests.swift */; };
 		96B541FC1C2A26C800E58E6C /* sequesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B541FB1C2A26C800E58E6C /* sequesUITests.swift */; };
+		96B542101C2B049800E58E6C /* GreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B5420F1C2B049800E58E6C /* GreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		96B541F71C2A26C800E58E6C /* sequesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sequesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96B541FB1C2A26C800E58E6C /* sequesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sequesUITests.swift; sourceTree = "<group>"; };
 		96B541FD1C2A26C800E58E6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96B5420F1C2B049800E58E6C /* GreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				96B541D81C2A26C800E58E6C /* AppDelegate.swift */,
 				96B541DA1C2A26C800E58E6C /* ViewController.swift */,
+				96B5420F1C2B049800E58E6C /* GreenViewController.swift */,
 				96B541DC1C2A26C800E58E6C /* Main.storyboard */,
 				96B541E21C2A26C800E58E6C /* Assets.xcassets */,
 				96B541E41C2A26C800E58E6C /* LaunchScreen.storyboard */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96B542101C2B049800E58E6C /* GreenViewController.swift in Sources */,
 				96B541DB1C2A26C800E58E6C /* ViewController.swift in Sources */,
 				96B541D91C2A26C800E58E6C /* AppDelegate.swift in Sources */,
 				96B541E11C2A26C800E58E6C /* seques.xcdatamodeld in Sources */,
